@@ -139,6 +139,15 @@ class CalendarHeader extends Component {
             ))}
           </View>
         }
+        <View
+          style={{
+            height: 1,
+            width: "95%",
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
+            marginLeft: 8,
+            marginTop: 4
+          }}
+        />
       </View>
     );
   }
